@@ -1,0 +1,7 @@
+project: pandas
+target: std_distribution
+duration: 300
+
+cmds:
+  - cmd: /pandas/fuzz/fuzz_targets/std_distribution.py
+    libfuzzer: true

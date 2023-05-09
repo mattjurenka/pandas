@@ -1,0 +1,7 @@
+project: pandas
+target: window
+duration: 300
+
+cmds:
+  - cmd: /pandas/fuzz/fuzz_targets/window.py
+    libfuzzer: true

@@ -3,5 +3,5 @@ target: std_distribution
 duration: 300
 
 cmds:
-  - cmd: /pandas/fuzz/fuzz_targets/std_distribution.py
+  - cmd: python3 /pandas/fuzz/fuzz_targets/std_distribution.py
     libfuzzer: true

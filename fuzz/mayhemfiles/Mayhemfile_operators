@@ -3,5 +3,5 @@ target: operators
 duration: 300
 
 cmds:
-  - cmd: /pandas/fuzz/fuzz_targets/operators.py
+  - cmd: python3 /pandas/fuzz/fuzz_targets/operators.py
     libfuzzer: true

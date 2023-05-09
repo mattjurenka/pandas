@@ -3,5 +3,5 @@ target: window
 duration: 300
 
 cmds:
-  - cmd: /pandas/fuzz/fuzz_targets/window.py
+  - cmd: python3 /pandas/fuzz/fuzz_targets/window.py
     libfuzzer: true
